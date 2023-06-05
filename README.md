@@ -18,7 +18,6 @@ Install all Flask requirements by run the following command
 ```
     pip install -r requirements.txt
 ```
-
 ## How the model is developed
 - The dataset - customer_details is a history of customers who accepted or rejected the insurance when called via phone.
 - The data is highly imbalanced because of a reason that only a few will accept insurance.
@@ -27,6 +26,3 @@ Install all Flask requirements by run the following command
 - XgBoost comes out to be the best model.
 - I am using free cloud service which provides limited ROM. So, I used the Decision Tree pickle file to predict the customers who accept the insurance beforehand.
 - **Note:** If you are also using a Decision Tree pickle file like me and using a free cloud service remove xgboost==1.6.2 from the requirements.txt file.
-
-## Deployed model will look like below
-(https://github.com/Sudharshan1996/Customer-Conversion-Prediction/edit/main/)
